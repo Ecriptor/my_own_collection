@@ -1,0 +1,8 @@
+---
+  - name: Run my module for Netology homework
+    my_own_module:
+      path: "{{ path_env }}"
+      content: "{{ content_env }}"
+    register: out
+  - debug: 
+      msg: "{{ out.content }}"

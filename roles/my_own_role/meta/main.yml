@@ -1,0 +1,8 @@
+galaxy_info:
+  author: Aleksey Radchenko
+  description: Netology module role
+  company: Noname
+  license: BSD-3-Clause
+  min_ansible_version: 2.8
+  galaxy_tags: [my_own_role]
+dependencies: []
